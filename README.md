@@ -441,6 +441,7 @@ Once you have finished using the VM, you can easily destroy it by running the fo
 terraform destroy
 ```
 Enter yes when prompted and in about a minute, your VM will be properly destroyed
+
 *Note. In Cloud environments, it is important to deallocate your instances to avoid incurring unexpected costs*
 
 ![](images/17.png)
