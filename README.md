@@ -226,7 +226,8 @@ Verify that the state is now active
 ![](images/10.png)
 
 ## Create main.tf file
-Open your terminal, if you are using Windows open PowerShell\\
+Open your terminal, if you are using Windows open PowerShell
+
 Create a directory, for example, gcp-terraform:
 ```bash
 mkdir gcp-terraform
