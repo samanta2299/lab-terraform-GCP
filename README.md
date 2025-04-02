@@ -413,12 +413,12 @@ terraform apply
 ```
 Enter yes when prompted, and the VM will be created, in output you will see the public IP of the VM
 
-![](images/12.png)
+![](images/13.png)
 
 ## Access the VM
 Go to "Compute Engine" in the Google Cloud Console and select “VM instances”
 
-![](images/13.png)
+![](images/12.png)
 
 The VM has been successfully created. You can verify that the external IP matches
 Now click on SSH to connect
