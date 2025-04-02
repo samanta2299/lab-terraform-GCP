@@ -10,7 +10,7 @@
 
 ---
 
-This lab demonstrates how to deploy a virtual machine (VM) on [Google Cloud Platform (GCP)](https://cloud.google.com/) using Terraform. It includes steps for setting up prerequisites, configuring Terraform, and managing the VM lifecycle.
+This lab demonstrates how to deploy a virtual machine (VM) on [Google Cloud Platform (GCP)](https://cloud.google.com/) using [Terraform](https://www.terraform.io/). It includes steps for setting up prerequisites, configuring Terraform, and managing the VM lifecycle.
 
 ## Prerequisites
 
