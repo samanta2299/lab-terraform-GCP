@@ -27,7 +27,6 @@ This lab demonstrates how to deploy a virtual machine (VM) on [Google Cloud Plat
 ---
 
 ## Installation Guides
-[▲ Back to top](#lab-terraform-gcp)
 
 ### Terraform Installation
 [▲ Back to top](#lab-terraform-gcp)
