@@ -259,11 +259,11 @@ From your **host terminal**, if you have not logged in already:
 ```bash
 gcloud auth application-default login
 ```
-If you created your project using the GCP GUI, run the following command to switch projects:
+If you created your project using the GCP Console, run the following command to switch projects:
 ```bash
 gcloud auth application-default login PROJECT_ID
 ```
-*Note. The Project ID is highlighted in red in the figure and does not correspond to the project name*
+*Note. The Project ID does not correspond to the project name*
 
 ## Enable Compute Engine
 Terraform requires this API to manage Compute Engine resources
