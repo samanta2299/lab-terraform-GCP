@@ -1,11 +1,21 @@
-# lab-terraform-GCP
+# Lab-terraform-GCP
 
-This lab demonstrates how to deploy a virtual machine (VM) on Google Cloud Platform (GCP) using Terraform. It includes steps for setting up prerequisites, configuring Terraform, and managing the VM lifecycle.
+## Quick Navigation
+- [Prerequisites](#prerequisites)
+- [Installation Guides](#installation-guides)
+  - [Terraform Installation](#terraform-installation)
+  - [gcloud CLI Installation](#gcloud-cli-installation)
+- [Create VM Instance](#create-a-vm-instance-using-terraform)
+- [Destroy Resources](#terraform-destroy)
+
+---
+
+This lab demonstrates how to deploy a virtual machine (VM) on [Google Cloud Platform (GCP)](https://cloud.google.com/) using Terraform. It includes steps for setting up prerequisites, configuring Terraform, and managing the VM lifecycle.
 
 ## Prerequisites
 
 - **Google Cloud Platform Account**  
-  - Sign up for a free tier account with [$300 in credits](https://cloud.google.com/free)
+  - Sign up for a free tier account with [$300 in credits](https://cloud.google.com/free)  
   - Verify your payment method (no charges during trial)
 
 - **Terraform 1.2.0+**  
