@@ -436,6 +436,7 @@ Now you are successfully connected to the VM via SSH
 
 ## Terraform destroy
 [▲ Back to top](#lab-terraform-gcp)
+
 Once you have finished using the VM, you can easily destroy it by running the following command from your terminal:
 ```bash
 terraform destroy
