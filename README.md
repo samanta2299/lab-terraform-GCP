@@ -9,10 +9,10 @@ This lab demonstrates how to deploy a virtual machine (VM) on Google Cloud Platf
   - Verify your payment method (no charges during trial)
 
 - **Terraform 1.2.0+**  
-  - [Installation guide](#terraform-installation) for Windows, macOS, and Linux
+  - [Installation guide](#terraform-installation) for Windows, macOS, and Linux (Ubuntu/Debian)
 
 - **Google Cloud CLI (gcloud)**  
-  - [Installation guide](#gcloud-cli-installation)
+  - [Installation guide](#gcloud-cli-installation) for Windows, macOS, and Linux (Ubuntu/Debian)
 
 ---
 
