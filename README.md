@@ -6,7 +6,7 @@
   - [Terraform Installation](#terraform-installation)
   - [gcloud CLI Installation](#gcloud-cli-installation)
 - [Create VM Instance](#create-a-vm-instance-using-terraform)
-- [Destroy Resources](#terraform-destroy)
+- [Destroy VM Instance](#terraform-destroy)
 
 ---
 
@@ -108,33 +108,40 @@ This lab demonstrates how to deploy a virtual machine (VM) on [Google Cloud Plat
 
 
 ### gcloud CLI Installation
-Follow the official guide for your OS: https://cloud.google.com/sdk/docs/install
+Follow the [official guide for your OS](https://cloud.google.com/sdk/docs/install)
 
 #### **Windows**
-1. Visit the official Google Cloud CLI download page to download the installer: https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe
+1. Visit the official Google Cloud CLI download page to download the [installer](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe)
 2. Once you have downloaded the installer, you can double click on it to open it, then click follow the guided installation leaving everything as set by default
 3. Once the Google Cloud CLI setup is completed, the command gcloud init will be runned automatically (see previous slide) You must sign in to continue, when prompted press Y
 4. Follow the instructions in the browser to complete the setup, enter you email to sign in and press “Next”, then click "Continue" to sign in to Google Cloud SDK and click "Allow". Now you have been authenticated with the gcloud CLI
 5. From Google Cloud CLI it will be asked if you want to create a new project, press Y to create it and then you will be asked to enter a project ID. Once created, your current project will be set to the project you have just created
 
 #### **MacOS**
-1. Ensure that your system has a supported Python version (Python 3.8 to 3.13). You can check your Python version by running one of the following commands in the terminal:
+1. **Ensure that your system has a supported Python version (Python 3.8 to 3.13).** You can check your Python version by running one of the following commands in the terminal:
    ```bash
-   python3 -V  or $ python -V
+   python3 -V
+   ```
+   or
+   ```bash
+   python -V
    ```
    If you don't have a supported version of Python, you can download it from python.org
    If you have multiple Python installations, set the CLOUDSDK_PYTHON environment variable to point to the correct version
-2. Download the Google Cloud CLI Archive.	Select the correct package based on your system architecture. To determine your system architecture, run:
+2. **Download the Google Cloud CLI Archive.** [Select the correct package based on your system architecture](https://cloud.google.com/sdk/docs/install#mac)
+   To determine your system architecture, run:
    ```bash
    uname -m
    ```
-3. Extract the archive. After downloading the .tar.gz archive, extract it to any location on your system (preferably your Home directory)
+   
+3. **Extract the archive.** After downloading the .tar.gz archive, extract it to any location on your system (preferably your Home directory)
    You can do this by opening the .tar.gz file and extracting it in finder, or use the terminal:
    ```bash
    tar -xvzf google-cloud-cli-darwin-x86_64.tar.gz
    ```
-4. Replace Existing Installation (if applicable). If you already have a Google Cloud SDK installation, remove the existing google-cloud-sdk directory, then extract the new archive to the same location
-5. Run the Installation Script. Navigate to the extracted directory and run the installation script:
+4. **Replace Existing Installation (if applicable).** If you already have a Google Cloud SDK installation, remove the existing google-cloud-sdk directory, then extract the new archive to the same location
+
+5. **Run the Installation Script.** Navigate to the extracted directory and run the installation script:
    ```bash
    cd google-cloud-sdk
 	 ./google-cloud-sdk/install.sh
@@ -150,11 +157,12 @@ Follow the official guide for your OS: https://cloud.google.com/sdk/docs/install
    - Send anonymous usage statistics to Google (optional)
    - Answer Y when prompted to confirm the installation settings
    If you updated your PATH in the previous step, open a new terminal for the changes to take effect
+
 7. After installation, initialize the gcloud CLI by running:
    ```bash
    ./google-cloud-sdk/bin/gcloud init
    ```
-	This will guide you through the setup process (e.g., logging into your Google account, setting the default project, similar process as shown for Windows)
+   This will guide you through the setup process (e.g., logging into your Google account, setting the default project, similar process as shown for Windows)
 
 #### **Ubuntu/Debian**
 1. Ensure your system is up to date:
@@ -193,6 +201,7 @@ Follow the official guide for your OS: https://cloud.google.com/sdk/docs/install
 ---
 
 # Create a VM instance using Terraform
+[▲ Back to top](#lab-terraform-gcp)
 
 ## Setup Environment
 Once you have been authenticated with the gcloud CLI, enter the Google Cloud Platform and enter in the project you have previously created
