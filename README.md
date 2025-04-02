@@ -127,6 +127,7 @@ This lab demonstrates how to deploy a virtual machine (VM) on [Google Cloud Plat
 
 ### gcloud CLI Installation
 [▲ Back to top](#lab-terraform-gcp)
+
 Follow the [official guide for your OS](https://cloud.google.com/sdk/docs/install)
 
 #### **Windows**
