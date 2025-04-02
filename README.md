@@ -43,13 +43,13 @@ This lab demonstrates how to deploy a virtual machine (VM) on [Google Cloud Plat
 
 4. To apply changes to the system disconnect from your Windows account or restart the system
 
-5. Verify that Terraform has been correctly installed:
+5. Verify that Terraform has been correctly installed, by running the following command from PowerShell:
    ```bash
    terraform -v
    ```
-  The output should look like:
-  Terraform v1.11.0
-  on windows_amd64
+   The output should look like:
+   Terraform v1.11.0
+   on windows_amd64
 
 
 #### **MacOS**
