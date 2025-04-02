@@ -180,7 +180,9 @@ Follow the official guide for your OS: https://cloud.google.com/sdk/docs/install
    Follow the instructions in the browser to complete the setup, enter you email to sign in and press “Next”, then click "Continue" to sign in to Google Cloud SDK and click "Allow". Now you have been authenticated with the gcloud CLI
    From Google Cloud CLI it will be asked if you want to create a new project, press Y to create it and then you will be asked to enter a project ID. Once created, your current project will be set to the project you have just created
 
-## Create a VM instance using Terraform
+---
+
+# Create a VM instance using Terraform
 
 ## Setup Environment
 Once you have been authenticated with the gcloud CLI, enter the Google Cloud Platform and enter in the project you have previously created
