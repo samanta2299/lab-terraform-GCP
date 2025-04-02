@@ -27,8 +27,10 @@ This lab demonstrates how to deploy a virtual machine (VM) on [Google Cloud Plat
 ---
 
 ## Installation Guides
+[▲ Back to top](#lab-terraform-gcp)
 
 ### Terraform Installation
+[▲ Back to top](#lab-terraform-gcp)
 
 #### **Windows**
 1. Download the binary file suitable for your system from: [HashiCorp](https://developer.hashicorp.com/terraform/install)
@@ -108,6 +110,7 @@ This lab demonstrates how to deploy a virtual machine (VM) on [Google Cloud Plat
 
 
 ### gcloud CLI Installation
+[▲ Back to top](#lab-terraform-gcp)
 Follow the [official guide for your OS](https://cloud.google.com/sdk/docs/install)
 
 #### **Windows**
@@ -398,6 +401,7 @@ Now you are successfully connected to the VM via SSH
 
 
 ## Terraform destroy
+[▲ Back to top](#lab-terraform-gcp)
 Once you have finished using the VM, you can easily destroy it by running the following command from your terminal:
 ```bash
 terraform destroy
