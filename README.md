@@ -187,11 +187,16 @@ Follow the official guide for your OS: https://cloud.google.com/sdk/docs/install
 ## Setup Environment
 Once you have been authenticated with the gcloud CLI, enter the Google Cloud Platform and enter in the project you have previously created
 In case you have not create a project yet, you can create it from the Console as shown in the figures below
+
 ![](images/1.png)
 ![](images/2.png)
+
 Then select the project you have just created
+
 ![](images/3.png)
+
 You are now working in the project: “Terraform-GCP-my-project”
+
 ![](images/4.png)
 
 From your **host terminal**, if you have not logged in already:
@@ -208,21 +213,27 @@ gcloud auth application-default login PROJECT_ID
 Terraform requires this API to manage Compute Engine resources
 Go to "APIs & Services" in the Google Cloud Console and select “API and enabled services”
 If the API is already enabled, the page will show "Manage" instead of "Enable"
+
 ![](images/5.png)
 
 Click on “Enable API and services”
+
 ![](images/6.png)
 
 Search “Compute engine”
+
 ![](images/7.png)
 
 Click on “Compute Engine API”
+
 ![](images/8.png)
 
 Click on “Enable”
+
 ![](images/9.png)
 
 Verify that the state is now active
+
 ![](images/10.png)
 
 ## Create main.tf file
@@ -345,20 +356,25 @@ Then, run the command:
 terraform apply
 ```
 Enter yes when prompted, and the VM will be created, in output you will see the public IP of the VM
+
 ![](images/12.png)
 
 ## Access the VM
 Go to "Compute Engine" in the Google Cloud Console and select “VM instances”
+
 ![](images/13.png)
 
 The VM has been successfully created. You can verify that the external IP matches
 Now click on SSH to connect
+
 ![](images/14.png)
 
 Authorize SSH in the browser to connect to the VM
+
 ![](images/15.png)
 
 Now you are successfully connected to the VM via SSH
+
 ![](images/16.png)
 
 
@@ -369,6 +385,7 @@ terraform destroy
 ```
 Enter yes when prompted and in about a minute, your VM will be properly destroyed
 *Note. In Cloud environments, it is important to deallocate your instances to avoid incurring unexpected costs*
+
 ![](images/17.png)
 
 
