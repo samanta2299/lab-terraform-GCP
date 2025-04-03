@@ -399,6 +399,11 @@ output "vm_ip" {
 
 Close and save you main.tf file
 
+To authenticates your local application with Google Cloud using your personal credentials execute the following commad:
+```bash
+gcloud auth application-default login
+```
+
 ## Terraform init
 Save your main.tf file and, from your terminal, run:
 ```bash
