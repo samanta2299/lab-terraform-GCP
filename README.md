@@ -452,6 +452,38 @@ Enter yes when prompted and in about a minute, your VM will be properly destroye
 
 ![](images/17.png)
 
+## Disclaimer:
+
+This configuration falls within the Google Cloud Free Tier as long as the following conditions are met:
+
+**1. Machine Type (e2-micro):**
+
+- The e2-micro instance is eligible for the Free Tier in supported regions, including europe-west8
+
+- Google Cloud offers one f1-micro or e2-micro instance free per month per account in supported regions. If you have other running instances of the same type, additional charges may apply
+
+**2. Boot Disk:**
+
+- The boot disk is initialized with the "ubuntu-os-cloud/ubuntu-2404-lts-amd64" image, which is supported in the Free Tier
+
+- The Free Tier provides up to 30 GB of persistent disk storage for free. If the boot disk exceeds 30 GB, charges will apply for the additional storage
+
+**3. Network Access:**
+
+- The instance uses the default network configuration with NAT (Network Address Translation) for external access
+
+- Google Cloud provides 1 GB of outgoing traffic free each month. If your outgoing traffic exceeds 1 GB, additional charges may apply
+
+**4. Public IP:**
+
+- A public IP address is assigned to the instance. Google Cloud provides a dynamic external IP address free of charge. However, static IP addresses may incur additional costs
+
+Important Notes:
+
+- The e2-micro instance is part of the Free Tier as long as it stays within the Free Tier limits
+- If you exceed 30 GB of storage or 1 GB of outgoing traffic per month, additional charges will apply
+- This configuration is eligible for the Free Tier, but it’s important to monitor usage to ensure it stays within the free limits
+
 
 
 
